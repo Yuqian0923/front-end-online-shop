@@ -1,0 +1,422 @@
+/*
+1.https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns 
+*/
+
+/*index body layout*/
+#body1{
+	background-image: url("../images/index.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 85%;
+}
+/*detail pages body layout*/
+#body2{
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 100% 100%;
+}
+
+.mainBody {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 771px;
+}
+/*main core layout*/
+.productBody {
+	
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 771px;
+}
+/*top banner layout*/
+.topBanner {
+	position:relative;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+    height:300px;
+	position:relative;
+	background-image: url("../images/product.jpg");
+	float:left;
+}
+/*main content layout*/
+.mainBody3 {
+	position:relative;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	position:relative;
+}
+/*title layout*/
+#title{
+	display: block;
+	height: 13px;
+	padding-bottom: 50px;
+    text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	background-color: rgba(0,0,0,0.03);
+    float: left;
+    width: 200px;
+    margin-left: 15px;
+    height: 210px;
+    margin-bottom: 15px;
+}
+.rowtext{
+	display: block;
+
+	width:  100%;
+	float: left;
+	padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.columntext {
+    float: left;
+    text-align: left;
+    font-size: 10pt;
+    width: 250px;
+    height:200px;
+    margin-left: 200px;
+    color: 	#696969;
+}
+
+.columntext3 {
+    float: left;
+    text-align: left;
+    font-size: 10pt;
+    width: 250px;
+    height:150px;
+    margin-left: 450px;
+    color: 	#696969;
+}
+.column img{
+    float: left;
+    width: 190px;
+    height: 190px;
+     border-radius: 80%;
+}
+.column h5{
+    text-align: center;
+}
+.column p{
+    text-align: center;
+}
+.column2 {
+    float: right;
+    margin-left: 30px;
+    width: 50px;
+    height: 30px;
+}
+.columnnew {
+    float: left;
+    margin-left: 25px;
+    width: 120px;
+    margin-top: 150px;
+}
+
+.row{
+    margin-left: auto;
+	margin-right: auto;
+	padding-left:50px;
+	float:left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.row3:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.row4:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    width: 150px;
+    height:150px;
+}
+/*navigation bar */
+#header {
+	background-image: url("../images/banner.png");
+	background-size: 771px,150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 771px;
+	height: 150px;
+	color: #FAF8F2;
+	float: left;
+	padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+#ulList {
+	margin-left: 100px;
+	margin-right: 0px;
+	margin-top: 65px;
+	list-style-type: none;
+	float: left;
+
+}
+#ulList  li {
+	font: 15pt Arial;
+	color: #F1E9D6;
+	float: left;
+    text-align: center;
+}
+
+#ulList  li a {
+	color: #F1E9D6;
+	float: left;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+#ulList  li a img{
+	color: #F1E9D6;
+	float: left;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-decoration: none;
+	height:70%;
+}
+	
+#ulList  li a:hover {
+	color: #C78D37;
+}
+/*navigation bar 2*/
+#header2 {
+	background-image: url("../images/banner.png");
+	background-size: 771px,150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 771px;
+	height: 150px;
+	color: #FAF8F2;
+	float: left;
+	padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+/*bottom layout*/
+.bot{
+	color: #999999;
+	text-align: center;
+	font-size: 12px;
+
+	padding-top: 500px;
+}
+.bottom {
+	position: relative;
+	width: 760px;
+	color: #999999;
+	text-align: center;
+	font-size: 12px;
+	clear: both;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 240px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+	float: left;
+}
+.bottom2 {
+	position: relative;
+	width: 760px;
+	color: #999999;
+	font-size: 12px;
+	clear: both;
+	padding-top: 50px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+}
+/*bottom picture*/
+#pic{
+	width:455px;
+	height: 300px;
+    display: block;
+    float: right;
+}
+/*thumbnail layout*/
+#leftpic{
+	width:300px;
+	height:300px;
+    float: left;
+}
+#leftpic p{
+	padding-left: 10px;
+    float: left;
+    color: #FFFFFF;
+}
+#leftpic a{
+
+	text-decoration: none;
+}
+
+.right2 {
+	width:39px;
+	height:38px;
+}
+.left2 {
+	/*top:200px;*/
+    float: left;
+    width:300px;
+    height:300px;
+    margin-right: auto;
+}
+.columntext2 {
+    float: left;
+    text-align: left;
+    font-size: 10pt;
+    width: 350px;
+    height:100px;
+    color: 	#696969;
+}
+.row3{
+    display: inline-block;
+    width:400px;
+    float:right;
+}
+.row4{
+    display: inline-block;
+    width:400px;
+    float:right;
+
+}
+.left {
+    float: left;
+    margin-left: 250px;
+    margin-right: auto;
+	margin-top: -150px;
+    height:100px;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*add to shopping cart button*/
+.mybutton{
+	width:270px;
+	height:100px;
+	float:right;
+	margin-top: 10px;
+}
+.button1{
+	background-image: url("../images/button1.jpg");
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 40px;
+	margin-top: 10px;
+
+}
+.button2{
+	background-image: url("../images/button2.jpg");
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 40px;
+}
+/*for wishlist link*/
+#wish{
+    text-decoration: none;
+    color:gray;
+    float:left;
+    padding-left: 30px;
+}
